@@ -11,6 +11,12 @@ This project uses the [Themovie Android Wrapper](https://github.com/rafaelcrz/th
 - Show the movie detail
 - Get the trailers/clips from a movie
 
+### In |app| build.gradle
+
+buildConfigField("String", "THEMOVIEDB_API_KEY", "${THEMOVIEDB_API_KEY}")
+
+-> __Use your API_KEY.__ Get it [here](https://developers.themoviedb.org/3/getting-started).
+
 ## Screen
 
 <img src="/screen.png">
