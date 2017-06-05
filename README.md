@@ -11,4 +11,4 @@ This project uses the [Themovie Android Wrapper](https://github.com/rafaelcrz/th
 
 ## Screen
 
-![GitHub Logo](images/movie_list.png | width=150)
+![GitHub Logo](/movie_list.png | width=150)
