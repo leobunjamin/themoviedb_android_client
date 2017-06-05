@@ -1,5 +1,7 @@
 # Themoviedb Android Client
 
+This app get information about movies from [TheMoviedb](https://www.themoviedb.org/) 
+
 This project uses the [Themovie Android Wrapper](https://github.com/rafaelcrz/themovie_android_wrapper).
 
 ## Features
