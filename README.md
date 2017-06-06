@@ -19,4 +19,4 @@ buildConfigField("String", "THEMOVIEDB_API_KEY", "${THEMOVIEDB_API_KEY}")
 
 ## Screen
 
-<img src="desafio-apps/screenshots/screenhots.png">
+<img src="/screen.png">
