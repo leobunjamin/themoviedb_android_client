@@ -20,6 +20,12 @@ allprojects {
     }
 }
 
+def getAPIKey() {
+    def Properties properties = new Properties()
+    properties.load(new FileInputStream(new File('secret.properties')))
+    return properties['API_KEY']
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
