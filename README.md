@@ -18,7 +18,7 @@ This project uses the [Themovie Android Wrapper](https://github.com/rafaelcrz/th
 
 ``` API_KEY=your_themoviedb_apikey ```
 
-Get the TheMoviedb API KEY here
+Get the TheMoviedb API KEY [here](https://developers.themoviedb.org/3/getting-started)
 
 In the ``` build.gradle ``` there's the getAPIKey function, its reads the ``` secret.properties ``` file and return the client API_KEY.
 
@@ -42,12 +42,6 @@ public static final String API_KEY = BuildConfig.THEMOVIEDB_API_KEY;
 ```
 __This apprach is recomended because prevents the client API KEY value be add to yours commit__
 
-
-### In |app| build.gradle
-
-buildConfigField("String", "THEMOVIEDB_API_KEY", "${THEMOVIEDB_API_KEY}")
-
--> __Use your API_KEY.__ Get it [here](https://developers.themoviedb.org/3/getting-started).
 
 ## Screen
 
